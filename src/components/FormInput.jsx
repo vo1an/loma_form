@@ -57,7 +57,7 @@ const FormInput = ({handleChange, formInputData, handleSubmit}) => {
                 <input type="text" onChange={handleChange} value={formInputData.password} name="password" className="form-control" placeholder="Password" />
       </div>
       <div className="col">
-        <input type="submit" onClick={handleSubmit} className="btn btn-primary" />
+        <button type="submit" onClick={handleSubmit} className="btn btn-primary" >Add</button>
       </div>
     </div>
   );
